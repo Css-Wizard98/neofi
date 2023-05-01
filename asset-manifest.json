@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/neofi/static/css/main.6511e927.css",
+    "main.js": "/neofi/static/js/main.e95af28d.js",
+    "static/js/787.2eae7b5f.chunk.js": "/neofi/static/js/787.2eae7b5f.chunk.js",
+    "static/media/Logo.svg": "/neofi/static/media/Logo.33302f6238b73b5162f06bef2c93a445.svg",
+    "static/media/list.svg": "/neofi/static/media/list.b9066c5e686200edee979630446d8cf0.svg",
+    "index.html": "/neofi/index.html",
+    "static/media/cross.svg": "/neofi/static/media/cross.1fec8109171e5f3e9757fd6ec4b1f9f9.svg",
+    "static/media/search.svg": "/neofi/static/media/search.c3b78c3967fd01e27426077cb506583f.svg",
+    "static/media/select.svg": "/neofi/static/media/select.1380b30061daf5400b765a84fe3f3950.svg",
+    "static/media/dropdown.svg": "/neofi/static/media/dropdown.26c2d32c724d86097659352f23f1ac2b.svg",
+    "main.6511e927.css.map": "/neofi/static/css/main.6511e927.css.map",
+    "main.e95af28d.js.map": "/neofi/static/js/main.e95af28d.js.map",
+    "787.2eae7b5f.chunk.js.map": "/neofi/static/js/787.2eae7b5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6511e927.css",
+    "static/js/main.e95af28d.js"
+  ]
+}
