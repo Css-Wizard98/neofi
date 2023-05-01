@@ -79,5 +79,25 @@ export const coins =[
     icon : "https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png",
     tag  : "DOTUSDT", 
 },
+{
+    name : "ApeCoin",
+    icon : "https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png",
+    tag  : "APEUSDT", 
+},
+{
+    name : "VeChain",
+    icon : "https://s2.coinmarketcap.com/static/img/coins/64x64/3077.png",
+    tag  : "VETIUSDT", 
+},
+{
+    name : "Quant",
+    icon : "https://s2.coinmarketcap.com/static/img/coins/64x64/3155.png",
+    tag  : "QNTUSDT", 
+},
+{
+    name : "Fantom",
+    icon : "https://s2.coinmarketcap.com/static/img/coins/64x64/3513.png",
+    tag  : "FTMUSDT", 
+},
 
 ]
