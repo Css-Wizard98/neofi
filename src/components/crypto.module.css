@@ -1,0 +1,201 @@
+.card {
+    border-radius: 12px;
+    background-color: #040406;
+    height: 490px;
+    width: 376px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -188px;
+}
+
+.body {
+    border: 1px solid;
+    border-color: linear-gradient(to bottom, rgba(70, 66, 94, 1), rgba(0, 0, 0, 0));
+    border-top: none;
+    height: 100%;
+    background-color: #0b0819;
+    border: 1px solid;
+    border-image: linear-gradient(to bottom, #46425E, #0000) 1;
+    border-radius: 16px;
+    padding: 64px 31px 20px;
+
+}
+
+.icon {
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    top: -30px;
+    left: 118px;
+    background: linear-gradient(to bottom, #0b0819, rgba(70, 66, 94, 1));
+    /* border: 1px solid rgba(70, 66, 94, 1);; */
+}
+
+.top {
+    height: 75px;
+    width: 76px;
+    position: absolute;
+    top: -22px;
+    left: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 1px solid #46425E;
+    border-top: transparent;
+}
+
+.top::before {
+
+    top: 22px;
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: -21.5px;
+    border-radius: 50%;
+    box-shadow: 38px 2px 0px 20px black;
+    border: 1px solid;
+    border-color: transparent #46425E transparent transparent;
+    transform: rotate(-53deg);
+}
+
+.top::after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    height: 20px;
+    width: 20px;
+    right: -21.5px;
+    border-radius: 50%;
+    box-shadow: -38px 3px 0px 20px black;
+
+    border: 1px solid;
+    border-color: transparent transparent transparent #46425E;
+    transform: rotate(53deg);
+}
+
+.body::before {
+    content: '';
+    position: absolute;
+    height: 24px;
+    left: 0px;
+    width: 24px;
+    transform: rotate(45deg);
+    border: 1px solid;
+    top: 0px;
+    border-radius: 50%;
+    border-color: transparent transparent transparent #46425E;
+    box-shadow: -18px 0px 0;
+}
+
+.body::after {
+    content: '';
+    position: absolute;
+    height: 24px;
+    right: 0px;
+    width: 24px;
+    transform: rotate(-45deg);
+    border: 1px solid;
+    top: 0px;
+    border-radius: 50%;
+    border-color: transparent #46425E transparent transparent;
+    box-shadow: 18px 0px 0;
+}
+
+.Currprice {
+    /* font-family: poppins; */
+    color: #C5C5C5;
+    background: #0b0819;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-family: sans-serif; */
+}
+
+.priceHeading {
+    color: #C5C5C5;
+    font-size: 13px;
+    background-color: inherit;
+}
+
+.price {
+    font-size: 24px;
+    color: #627EEA;
+    font-weight: 600;
+    background-color: inherit;
+}
+
+.cryptoIcon {
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    top: 13px;
+    height: 46px;
+    left: 14.5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #1C1731;
+}
+.chooseCoin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background: #1C1731;
+    margin-top: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.coinIcon{
+    display: flex;
+    color: white;
+    gap: 9px;
+    align-items: center;
+}
+.amount{
+    position: relative;
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.amount input{
+    border: 1px solid rgba(110, 86, 248, 0.25);
+    outline: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 60px 15px 25px;
+    background: inherit;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #6F6F7E;
+    font-weight: 600;
+}
+.amount label{
+    color: #DCDCEC;
+}
+.currency{
+    position: absolute;
+    position: absolute;
+    right: 18px;
+    top: 43px;
+    font-size: 16px;
+}
+.value{
+    background: #1C1731 !important;
+    border: none !important;
+}
+.buy{
+    width: 100%;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 7px;
+    background: linear-gradient(to right, #3387D5, #7A06C9);
+    border-radius: 30px;
+}
+.amount input::-webkit-outer-spin-button,
+.amount input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
