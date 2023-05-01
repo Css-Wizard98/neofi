@@ -33,7 +33,7 @@ const Nav = () => {
             <li onClick={() => navClickhandler(2)} id="support" className={classes.link}>Support</li>
             <li onClick={() => navClickhandler(3)} id="about" className={classes.link}>About</li>
         </ul>
-        <button className={classes.webList} onClick={sidebarHandler}>Connect wallet</button>
+        <button className={classes.webList}>Connect wallet</button>
         <img onClick={sidebarHandler} className={classes.mobileIcon} src={list} alt="" />
 
         {showSideBar && <div className={classes.Sidebar}>
