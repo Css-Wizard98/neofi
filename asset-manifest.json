@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/neofi/static/css/main.6511e927.css",
-    "main.js": "/neofi/static/js/main.f8e95d50.js",
+    "main.js": "/neofi/static/js/main.7a358fa5.js",
     "static/js/787.2eae7b5f.chunk.js": "/neofi/static/js/787.2eae7b5f.chunk.js",
     "static/media/Logo.svg": "/neofi/static/media/Logo.33302f6238b73b5162f06bef2c93a445.svg",
     "static/media/list.svg": "/neofi/static/media/list.b9066c5e686200edee979630446d8cf0.svg",
@@ -11,11 +11,11 @@
     "static/media/select.svg": "/neofi/static/media/select.1380b30061daf5400b765a84fe3f3950.svg",
     "static/media/dropdown.svg": "/neofi/static/media/dropdown.26c2d32c724d86097659352f23f1ac2b.svg",
     "main.6511e927.css.map": "/neofi/static/css/main.6511e927.css.map",
-    "main.f8e95d50.js.map": "/neofi/static/js/main.f8e95d50.js.map",
+    "main.7a358fa5.js.map": "/neofi/static/js/main.7a358fa5.js.map",
     "787.2eae7b5f.chunk.js.map": "/neofi/static/js/787.2eae7b5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6511e927.css",
-    "static/js/main.f8e95d50.js"
+    "static/js/main.7a358fa5.js"
   ]
 }
