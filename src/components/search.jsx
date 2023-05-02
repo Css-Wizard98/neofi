@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import classes from "./search.module.css";
 import search from "../utils/search.svg";
 import cross from "../utils/cross.svg";
@@ -28,6 +28,10 @@ const Search = (props) => {
     function stopPropagation(e) {
         e.stopPropagation();
     }
+
+    useEffect(()=>{
+        document.getElementById('searchChains').focus();
+    },[]);
     // let result = [{ name: 'Ethereum', icon: "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" }, { name: 'Ethereum', icon: "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" }]
     return (<Fragment>
         <div className={classes.overlay} onClick={props.closePopup}>
@@ -35,7 +39,7 @@ const Search = (props) => {
                 <div className={classes.body}>
                     <div onClick={props.closePopup} className={classes.cross}><img height="10px" src={cross} alt="" /></div>
                     <div className={classes.seachDiv}>
-                        <input onChange={searchHandler} type="text" className={classes.search} placeholder="Seacrh chains" />
+                        <input onChange={searchHandler} id="searchChains" type="text" className={classes.search} placeholder="Seacrh chains" />
                         <img className={classes.seachIcon} src={search} alt="" />
                     </div>
                     <div className={classes.resultDiv}>
