@@ -8,6 +8,7 @@ const Crypto = (props) => {
     const [selectedCoin,setselectedCoin] = useState({name : "Bitcoin",icon : "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",tag  : 'BTCUSDT',});
     const [currentPrice,setCurrentPrice] = useState();
     const [coins,setCoins] = useState();
+    const [money,setMoney] = useState();
 
 
     function popUpHandler(){
@@ -18,6 +19,8 @@ const Crypto = (props) => {
     function SelectCoinHandler(val){
         console.log(val);
         setselectedCoin(val);
+        setMoney();
+        setCoins();
     }
 
     useEffect(()=>{
@@ -55,7 +58,7 @@ const Crypto = (props) => {
                 </div>
                 <div className={classes.amount}>
                     <label htmlFor="amount">Amount you want to invest</label>
-                    <input onChange={amounthandler} type="number" placeholder="0.00"/>
+                    <input value={money} onChange={amounthandler} type="number" placeholder="0.00"/>
                     <div className={classes.currency}>INR</div>
                 </div>
 
